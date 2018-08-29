@@ -1,0 +1,90 @@
+/*!
+    Theme Name:     Pictalter Child Theme
+    Theme URI:      http://www.wpfairy.com
+    Version:        3.9
+    Description:    Child theme for Pictalter
+    Author:         Renee Allred
+    Author URI:     http://www.wpfairy.com
+    Template:       pictalter
+	Text Domain:    pictalter-child-theme
+    Version:        1.0.1
+*/
+
+#footer-info {
+    color: #666;
+    display: none;
+    float: left;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.view-full-post-btn{
+  display:inline-block;
+  /*border-radius*/
+  -webkit-border-radius:10px;
+     -moz-border-radius:10px;
+          border-radius:10px;
+  padding:8px 16px;
+  margin-top:10px;
+  color:#454545;
+  border:1px solid #d8dcdc;
+  font-family:Georgia,serif;
+  font-style:italic;
+  font-size:16px;
+}
+
+.view-full-post-btn:hover{
+  background:#454545;
+  /*transition*/
+  -webkit-transition:all .3s ease;
+  -moz-transition:all .3s ease;
+  -o-transition:all .3s ease;
+          transition:all .3s ease;
+  border:1px solid #000000;
+  color:#FFFFFF;
+}
+
+ #top-header, #et-secondary-nav li ul {
+    background-color: #383838;
+}
+
+.et_nav_text_color_light, .et_nav_text_color_light #et-secondary-nav a, .et_nav_text_color_light .et-social-icon a, .et_nav_text_color_light #et-info a {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#et-info {
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.et_fixed_nav #logo {
+	max-height: 60px;
+        padding-bottom: 0px;
+}
+
+.et_pb_slide_description h2 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.et_pb_widget a {
+    color: #2ea3f2;
+}
+
+#top-header, #top-header .container, #top-header #et-info, #top-header .et-social-icon a  {
+    color: #fff;
+}
+
+#et-info-email {
+    color: #fff;
+}
+
+.mbm-widget-cover {
+	width: 100% !important;
+}
+
+#post-81 > div > div.et_pb_section.et_pb_section_1.et_section_regular > div.et_pb_row.et_pb_row_3 > div.et_pb_column.et_pb_column_1_3.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough.et-last-child { 
+    padding: 30px;
+    background-color: #ebebeb;
+}
